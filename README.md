@@ -1,4 +1,17 @@
-# TypingSpeedTest
+# Typing Speed Test
+
+Steps to test [**Click here to view**](https://abhishekbadola.github.io/typing-speed-test):
+
+1) Click on start button
+2) Start typing in textarea provided
+3) For every correct word 10 points will be given
+4) For every misspelt word 5 points will be deducted
+5) Paragraph shows indicators like red for errors, blue for next word to type and greyed out for correctly typed words
+6) It will remember the best score and last test's score whenever you are playing
+7) Accuracy shows the percentage based on number of correct words written to the total words written
+8) Words per minute shows the number of words written in a minute (Not dependent on correcteness)
+9) Everytime you break your best score it will show a badge as **New** to the best score
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
