@@ -52,6 +52,7 @@ export class ScoreboardComponent implements OnInit {
         this.time = 0;
         this.timesUp.emit(0);
         this.timer.unsubscribe();
+        this.timer = null;
       } else {
         this.time--;
       }
