@@ -82,6 +82,12 @@ export class AppComponent {
       this.records.last = parseInt(localStorage.getItem('last') || '0', 10);
     }
     if (!this.startTyping) {
+      this.score = { // Resetting scores
+        wpm: 0,
+        errors: 0,
+        total: 0,
+        accuracy: 0
+      };
       this.startTyping = true;
     }
   }
